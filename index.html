@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf8">
+    <meta name="subject" content="Pharmacie des Vosges">
+    <meta name="description" content="Site web officiel de la Pharmacie des Vosges, à Phalsbourg">
+    <meta name="Keywords" content="pharmacie, pharmacies, phalsbourg, place d'armes, schwarzenbart, horaires, horaire">
+    <meta name="Language" content="français">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Get Bootstrap-->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!--Get angularjs-->
+    <script src="./angularjs1.2.7/angular.min.js"></script>
+    <script src="./angularjs1.2.7/angular-route.js"></script>
+    <script src="./app.js"></script>
+    <!--CSS-->
+    <link rel="stylesheet" href="./css/index.css">
+    
+    <title>Pharmacie des Vosges</title>
+   
+</head>
+
+<body class="ng-scope" ng-app="ctrlr">
+    <div class="row">
+        <border class="containter-fluid">
+            <div class="col-sm-offset-1 col-sm-2">
+
+                <cln class="container-fluid">
+                    <a href="#Accueil">Acceuil</a>
+                </cln>
+                <cln class="container-fluid">
+                    <a href="#MaPharmacie">Ma pharmacie</a>
+                </cln>
+                <cln class="container-fluid">
+                    <a href="#ServicesetCompetences">Services et Compétences</a>
+                </cln>
+                <cln class="container-fluid">
+                    <a href="#MaterielMedical">Matériel Médical</a>
+                </cln>
+                <cln class="container-fluid">
+                    <a href="#Equipe">Equipe</a>
+                </cln>
+                <cln class="container-fluid">
+                    <a href="#Equipe">Contacte</a>
+                </cln>   
+            </div>
+        </border>
+        <section class="containter-fluid">
+            <div class="col-sm-6">
+                <div ng-view></div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <span>Tous droits réservés | <a href="./mentionslegales.html">Mentions légales</a></span>
+    </footer>
+</body>

@@ -1,0 +1,39 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size:16px;
+}
+body{
+    display: table;
+    width:100%;
+    font-family: SSP;
+}
+
+body>div{
+    display: table-row;
+}
+
+body>div>border>div{
+    vertical-align: middle;
+    barground:GREEN;
+
+}
+
+body>div>border>div>cln:nth-of-type(1){
+    margin-top: 1000px;
+    background:RED;
+}
+
+body>footer{
+
+    display: table-row;
+    height: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.row{
+    max-width: 100%;
+    margin: 0px;
+}
