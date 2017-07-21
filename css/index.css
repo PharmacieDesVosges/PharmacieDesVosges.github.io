@@ -16,11 +16,13 @@ body>div{
 
 body>div>border{
     position: fixed;
+    height:100%;
 }
 
 body>div>border>div{
     margin-top: 100px;
     baground:red;
+    height:100%;
 }
 
 body>div>border>div>div{
