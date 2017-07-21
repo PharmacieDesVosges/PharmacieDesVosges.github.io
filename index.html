@@ -23,30 +23,21 @@
 <body class="ng-scope" ng-app="ctrlr">
     <div class="row">
         <border class="containter-fluid">
-            <div class="col-sm-offset-1 col-sm-2">
-
-                <cln class="container-fluid">
-                    <a href="#Accueil">Acceuil</a>
-                </cln>
-                <cln class="container-fluid">
-                    <a href="#MaPharmacie">Ma pharmacie</a>
-                </cln>
-                <cln class="container-fluid">
-                    <a href="#ServicesetCompetences">Services et Compétences</a>
-                </cln>
-                <cln class="container-fluid">
-                    <a href="#MaterielMedical">Matériel Médical</a>
-                </cln>
-                <cln class="container-fluid">
-                    <a href="#Equipe">Equipe</a>
-                </cln>
-                <cln class="container-fluid">
-                    <a href="#Equipe">Contacte</a>
-                </cln>   
+            <div class="col-sm-offset-2 col-sm-12">
+                <div class="row">
+                <table>
+                    <tr><td><a href="#Accueil">Acceuil</a></td></tr>
+                    <tr><td><a href="#MaPharmacie">Ma pharmacie</a></td></tr>
+                    <tr><td><a href="#ServicesetCompetences">Services et Compétences</a></td></tr>
+                    <tr><td><a href="#MaterielMedical">Matériel Médical</a></td></tr>
+                    <tr><td><a href="#Equipe">Equipe</a></td></tr>
+                    <tr><td><a href="#Contacte">Contacte</a></td></tr>
+                </table>
+                </div>    
             </div>
         </border>
         <section class="containter-fluid">
-            <div class="col-sm-6">
+            <div class="col-sm-offset-3 col-sm-6">
                 <div ng-view></div>
             </div>
         </section>
