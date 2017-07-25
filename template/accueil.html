@@ -1,15 +1,20 @@
 <link rel="stylesheet" href="./css/accueil.css">
+<link rel="stylesheet" href="./css/slideshowtempl.css">
+<div ng-controller="SliderControllerMP">
+    <slider images="images"/>
+</div>
 <div class="container-fluid">
     <div class="row">
         <div>
-            <p>Site officiel de la Pharmacie des Vosges - Phalsbourg </p>
+            <p id="site_off">Site officiel de la Pharmacie des Vosges - Phalsbourg </p>
         </div>
         <div class="col-sm-6">
             <h1><span class="underline">Horaires</span> :</h1>
             <h2>Du Lundi au Vendredi :</h2> 
-            <p>8h15 à 12h</p> 
+            <p>8h30 à 12h</p> 
             <p>14h à 19h</p>
-            <h2>Le Samedi :<a href="#SamediOuvert">(un samedi sur deux)</a></h2> 
+            <h2>Le Samedi :</h2>
+            <a href="#SamediOuvert">(un samedi sur deux)</a>
             <p>8h30 à 12h</p>
             <p>14h à 17h</p>
         </div>

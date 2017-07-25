@@ -1,12 +1,23 @@
 <link rel="stylesheet" href="./css/materielmedical.css">
+<link rel="stylesheet" href="./css/slideshowtempl.css">
+<div class="container-fluid"> 
 <div class="row">
-    <div class"col-sm-12">
-        fauteil roulant
-        <br>déambulateur
-        <br>lit médical
-        <br>soulève malade
-        <br>béquille et canne
-        <br>siège coquille
-        <br>chausseure confort
+        <div class="col-sm-6">
+            <p id="txt">Pour vous accompagner au mieux, la Pharmacie des Vosges a une large gamme de matériels médicals qui vous assisteront au quotidien :</p>
+            <p id="liste">
+            - fauteil roulant
+            <br>- déambulateur
+            <br>- lit médical
+            <br>- soulève malade
+            <br>- béquille et canne
+            <br>- siège coquille
+            <br>- chaussure confort
+            </p>
+        </div>
+        <div class="col-sm-6">
+            <div ng-controller="SliderControllerMM">
+                <slidermat images="images"/>
+            </div>
+        </div>
     </div>
 </div>
