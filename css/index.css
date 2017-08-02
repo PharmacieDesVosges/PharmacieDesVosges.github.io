@@ -7,54 +7,65 @@ html, body {
 body{
     display: table;
     width:100%;
-    font-family: SSP;
     background: #EFEFFF;
+    font-family: BabelSans;
 }
 
-body>div{
-    display: table-row;
-}
-
-body>div>border{
+border_left{
     position: fixed;
     height:100%;
+    width: 17%;
+    background:#3eff3e;
 }
 
-body>div>border>div{
-    height:100%;
-    max-width: 100%;
-}
-
-body>div>border>div>div{
-    background: #FFF;
-    padding-top:50%;
-    border-left: 3px solid #095228;
-    border-right: 3px solid #095228;
+border_mid{
     width:100%;
-    height: 100%;
+        margin-left: -15px;
+    margin-right: -15px;
+    background:#3eff3e;
+    
 }
 
 table{
     border-collapse: collapse;
     width:100%;
+    height:100%;
 }
 
 td{
-    box-sizing: border-box;
-    border-top: 3px solid #095228;
-    border-bottom: 3px solid #095228;
+    border-left: 3px solid rgba(0,0,0,0);
+    border-right: 3px solid rgba(0,0,0,0);
+    border-top: 3px solid  rgba(0,0,0,0);
+    border-bottom: 3px solid rgba(0,0,0,0);
     text-align: center;
     font-size: 20px;
 }
 
-.cellule{
+cellint{
+    background: #fff;
     display: block;
-    width: 100%;
+    height: 100%;
+}
+
+#topcell{
+    border-top: 0px;
+    height:20%;
+}
+
+#botcell{
+    border-bottom: 0px;
+    height: 100%;
+}
+
+.cellule{
+    height: 100%;
+    background: #FFF;
+    display: block;
     padding: 10px;
     padding-bottom: 20px;
     padding-top: 20px;
     color: #09286f;
-    font-weight: bold; 
+    font-weight: bold;
 }
 .cellule:hover{
     background:#EAEAEA;
@@ -66,10 +77,6 @@ td{
     color: #09286f;
 }
 
-body>section>div>div{
-    text-align: center;
-}
-
 #logo{
     display: block;
     margin-left: auto;
@@ -78,14 +85,11 @@ body>section>div>div{
     max-height: 300px;
 }
 
-body>div>footer{
-
+footer{
     display: table-row;
     height: 30px;
     text-align: center;
     padding-top: 50px;
-    font-size:15px;
-    font-style: italic;
 }
 
 .row{

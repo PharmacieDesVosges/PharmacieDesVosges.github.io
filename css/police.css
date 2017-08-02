@@ -1,0 +1,20 @@
+@font-face{
+    font-family: BabelSans;
+    src: url(../images/police/BabelSans.ttf);
+}
+@font-face{
+    font-family: BabelSans;
+    src: url(../images/police/BabelSans-Oblique.ttf);
+    font-style:italic;
+}
+@font-face{
+    font-family: BabelSans;
+    src: url(../images/police/BabelSans-Bold.ttf);
+    font-weight:bold;
+}
+@font-face{
+    font-family: BabelSans;
+    src: url(../images/police/BabelSans-BoldOblique.ttf);
+    font-style:italic;
+    font-weight:bold;
+}

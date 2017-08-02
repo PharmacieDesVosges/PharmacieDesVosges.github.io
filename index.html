@@ -17,37 +17,68 @@
     <script src="./js/app.js"></script>
     <!--CSS-->
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/police.css">
     
     <title>Pharmacie des Vosges</title>
    
 </head>
 
 <body class="ng-scope" ng-app="ctrlr">
-    <div class="row">
-        <border class="containter-fluid">
-            <div class="col-sm-offset-3 col-sm-9">
-                <div class="row">
-                <table>
-                    <tr><td><a class="cellule" href="#Accueil">Acceuil</a></td></tr>
-                    <tr><td><a class="cellule" href="#MaPharmacie">Ma pharmacie</a></td></tr>
-                    <tr><td><a class="cellule" href="#ServicesetCompetences">Services et Compétences</a></td></tr>
-                    <tr><td><a class="cellule" href="#MaterielMedical">Matériel Médical</a></td></tr>
-                    <tr><td><a class="cellule" href="#Equipe">Equipe</a></td></tr>
-                    <tr><td><a class="cellule"  href="#Plan">Plan</a></td></tr>
-                </table>
-                </div>    
-            </div>
-        </border>
-        <section class="containter-fluid">
-            <div class="col-sm-offset-3 col-sm-8">
+    <left_side class="hidden-xs hidden-sm col-md-offset-1 col-md-2">
+        <border_left class="hidden-xs hidden-sm">
+            <table>
+                <tr>
+                    <td id="topcell"><cellint>&nbsp;</cellint></td>
+                </tr>
+                <tr>
+                <td><a class="cellule" href="#Accueil">Acceuil</a></td>
+                </tr>
+                <tr>
+                    <td><a class="cellule" href="#MaPharmacie">Ma pharmacie</a></td>
+                </tr>
+                <tr>
+                    <td><a class="cellule" href="#ServicesetCompetences">Services et Compétences</a></td>
+                </tr>
+                <tr>
+                    <td><a class="cellule" href="#MaterielMedical">Matériel Médical</a></td>
+                </tr>
+                <tr>
+                    <td><a class="cellule" href="#Equipe">Equipe</a></td>
+                </tr>
+                <tr>
+                    <td><a class="cellule"  href="#Plan">Plan</a></td>
+                </tr>
+                <tr>
+                    <td id="botcell"><cellint>&nbsp;</cellint></td>
+                </tr>
+            </table>
+        </border_left>
+    </left_side>
+    <right_side class="col-sm-offset-3  col-md-8">
+        <section class="row">
                 <div>
-                    <img id="logo" src="./images/logo01.png">
+                    <a href="#Accueil"><img id="logo" src="./images/logo01.png"></a>
                 </div>
-                <div ng-view></div>
-            </div>
         </section>
-        <footer class="col-sm-12">
+    </right_side>
+        <border_mid class="hidden-md hidden-lg col-xs-12">
+            <table>
+                <tr>
+                    <td><a class="cellule" href="#Accueil">Acceuil</a></td>
+                    <td><a class="cellule" href="#MaPharmacie">Ma pharmacie</a></td>
+                    <td><a class="cellule" href="#ServicesetCompetences">Services et Compétences</a></td>
+                    <td><a class="cellule" href="#MaterielMedical">Matériel Médical</a></td>
+                    <td><a class="cellule" href="#Equipe">Equipe</a></td>
+                    <td><a class="cellule"  href="#Plan">Plan</a></td>
+                </tr>
+            </table>
+        </border_mid>
+    <right_side class="col-sm-offset-3  col-md-8">
+        <section class="row">
+            <div ng-view></div>
+        </section>
+    </right_side>
+    <footer>
             <span>Tous droits réservés | <a href="./mentionslegales.html">Mentions légales</a></span>
-        </footer>
-    </div>
+    </footer>
 </body>
