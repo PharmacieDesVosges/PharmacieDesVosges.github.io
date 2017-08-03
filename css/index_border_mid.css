@@ -1,0 +1,41 @@
+border_mid{
+    position:fixed;
+    width:100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 20px;
+}
+
+.td_mid{
+    height:100%;
+    border-bottom: 5px solid #3eff3e;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+.cellule_mid{
+    height: 100%;
+    background-image:linear-gradient(to bottom, #fafaff 0%, #ffffff 35%, #3eff3e 70%);
+    background-size: auto 400%;
+    background-position: 0 0;
+    transition : background-position 1.5s;
+    display: block;
+    padding: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: #09286f;
+    font-weight: bold;
+}
+
+.cellule_mid:hover{
+    text-decoration: none;
+    color: #01796f;
+    background-position : 0 100%;
+}
+
+.cellule_mid:focus{
+    text-decoration: none;
+    color: #09286f;
+    outline:none;
+}
