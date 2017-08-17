@@ -26,11 +26,11 @@
 </head>
 
 <body class="ng-scope" ng-app="ctrlr">
-    <left_side class="hidden-xs col-sm-offset-1 col-sm-2">
+    <left_side class="hidden-xs col-sm-2">
         <border_left class="hidden-xs">
             <table>
                 <tr>
-                    <td class="td_left" id="topcell"><cellint>&nbsp;</cellint></td>
+                    <td class="td_left" id="topcell"><a href="#Accueil"><img id="logo" src="./images/logo01.png"></a></td>
                 </tr>
                 <tr>
                     <td class="td_left"><a class="cellule_left" href="#Accueil">Accueil</a></td>
@@ -56,14 +56,8 @@
             </table>
         </border_left>
     </left_side>
-    <right_side class="col-xs-12 col-sm-offset-3  col-sm-8">
-        <section class="row">
-                <div>
-                    <a href="#Accueil"><img id="logo" src="./images/logo01.png"></a>
-                </div>
-        </section>
-    </right_side>
     <border_mid class="hidden-sm hidden-md hidden-lg col-xs-12">
+        <a href="#Accueil"><img id="logo" src="./images/logo01.png"></a>
         <table>
             <tr>
                 <td class="td_mid"><a class="cellule_mid" href="#Accueil">Accueil</a></td>
@@ -73,11 +67,11 @@
             <tr>
                 <td class="td_mid"><a class="cellule_mid" href="#MaterielMedical">Matériel Médical</a></td>
                 <td class="td_mid"><a class="cellule_mid" href="#ServicesetCompetences">Services et Compétences</a></td>
-                <td class="td_mid"><a class="cellule_mid"  href="#Plan">Plan d'accès</a></td>
+                <td class="td_mid"><a class="cellule_mid" href="#Plan">Plan d'accès</a></td>
             </tr>
         </table>
     </border_mid>
-    <right_side class="col-xs-12 col-sm-offset-3  col-sm-8">
+    <right_side class="col-xs-12 col-offset-sm-4 col-sm-8">
         <section class="row">
             <div ng-view></div>
         </section>

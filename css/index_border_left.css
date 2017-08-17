@@ -17,8 +17,10 @@ cellint{
 }
 
 #topcell{
+    padding-top: 30px;
+    padding-bottom: 30px;
     border-top: 0px;
-    height:15%;
+    height:20%;
 }
 
 #botcell{

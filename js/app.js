@@ -38,7 +38,9 @@ view_pro.config(['$routeProvider',
 var sliderMP = angular.module('sliderMP',['ngAnimate']);
 
 sliderMP.controller('SliderControllerMP', function($scope) {
-    $scope.images=[{src:'ext01.jpg',
+    $scope.images=[{src:'logo.png',
+                   title:'logo'},
+                   {src:'ext01.jpg',
                     title:'Pic 1'},
                    {src:'ext02.jpg',
                     title:'Pic 2'},

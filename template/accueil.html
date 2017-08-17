@@ -1,33 +1,46 @@
 <link rel="stylesheet" href="./css/accueil.css">
 <link rel="stylesheet" href="./css/slideshowtempl.css">
-<div ng-controller="SliderControllerMP">
-    <slider images="images"/>
+<div class="hidden-xs">
+    <div ng-controller="SliderControllerMP">
+        <slider images="images"/>
+    </div>
 </div>
 <div class="container-fluid">
     <div class="row">
         <div>
             <p id="site_off">Site officiel de la Pharmacie des Vosges - Phalsbourg </p>
         </div>
-        <div class="col-sm-6">
-            <h1><span class="underline">Horaires</span> :</h1>
-            <h2>Du Lundi au Vendredi :</h2> 
-            <p>8h30 à 12h</p> 
-            <p>14h à 19h</p>
-            <h2>Le Samedi :</h2>
-            <a href="#SamediOuvert">(un samedi sur deux)</a>
-            <p>8h30 à 12h</p>
-            <p>14h à 17h</p>
+        <div class="col-offset-xs-1 col-xs-10">
+            <div class="row">
+                <h1><span class="underline">Horaires</span> :</h1>
+                <div class="col-xs-12 col-sm-6">
+                    <h2>Du Lundi au Vendredi :</h2> 
+                    <p>8h30 à 12h</p> 
+                    <p>14h à 19h</p>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <h2>Le Samedi :</h2>
+                    <a href="#SamediOuvert">(un samedi sur deux)</a>
+                    <p>8h30 à 12h</p>
+                    <p>14h à 17h</p>
+                </div>
+            </div>
         </div>
-        <div class="col-sm-6">
-            <h1><span>Coordonnées</span> :</h1>
-            <h2>Adresse :</h2>
-            <p>2 place d'Armes</p>
-            <p>57370 Phalsbourg</p>
-            <h2>Téléphone :</h2>
-            <p>03.87.24.31.60</p>
-            <h2>Fax :</h2>
-            <p>03.87.24.34.39</p>
+        <div class="col-offset-xs-1 col-xs-10">
+            <div class="row">
+                <h1><span>Coordonnées</span> :</h1>
+                <div class="col-xs-12 col-sm-6">
+                    <h2>Adresse :</h2>
+                    <p>2 place d'Armes</p>
+                    <p>57370 Phalsbourg</p>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <h2>Téléphone :</h2>
+                    <p>03.87.24.31.60</p>
+                    <h2>Fax :</h2>
+                    <p>03.87.24.34.39</p>
+                </div>
+            </div>
         </div>
     </div>
-
 </div>

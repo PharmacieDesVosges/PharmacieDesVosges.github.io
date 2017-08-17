@@ -17,6 +17,10 @@ table{
     height:100%;
 }
 
+border_left{
+    margin-left: -15px;
+}
+
 #logo{
     display: block;
     margin-left: auto;
