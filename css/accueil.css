@@ -2,6 +2,11 @@ container-fluid{
     width:100%;
 }
 
+logoPU{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 #site_off{
     text-align: center;
     margin-top: 5px;
