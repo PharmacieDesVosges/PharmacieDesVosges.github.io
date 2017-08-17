@@ -1,7 +1,8 @@
 var ctrlr = angular.module('ctrlr',[
     'view_pro',
     'sliderMP',
-    'sliderMM'
+    'sliderMM',
+    'dtApp'
 ]);
 
 var view_pro = angular.module('view_pro', ['ngRoute']);
@@ -96,7 +97,7 @@ sliderMP.directive('slider', function ($timeout) {
 		/* End : For Automatic slideshow*/
 		
     },
-	templateUrl:'template/slideshow/mapharma.html'
+	templateUrl:'template/slideshow/slide_acc.html'
   }
 });
 
@@ -160,3 +161,9 @@ sliderMM.directive('slidermat', function ($timeout) {
 	templateUrl:'template/slideshow/materiel.html'
   }
 });
+
+var dtApp = angular.module('dtApp', []);
+
+dtApp.controller('dateController', function ($scope, $filter) {
+            $scope.result = $filter('date')(new Date());
+    });
