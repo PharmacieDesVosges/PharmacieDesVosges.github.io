@@ -3,6 +3,11 @@ h2{
     text-align: center;
 }
 
+img{
+    max-height: 300px;
+    max-width: 255px;
+}
+
 .row{
     margin-bottom: 20px;
 }

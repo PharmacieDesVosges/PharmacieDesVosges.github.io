@@ -165,5 +165,5 @@ sliderMM.directive('slidermat', function ($timeout) {
 var dtApp = angular.module('dtApp', []);
 
 dtApp.controller('dateController', function ($scope, $filter) {
-            $scope.result = $filter('date')(new Date());
+        $scope.result = $filter('date')(new Date(),'h');
     });
