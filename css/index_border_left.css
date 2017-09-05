@@ -17,8 +17,6 @@ cellint{
 }
 
 #topcell{
-    padding-top: 30px;
-    padding-bottom: 30px;
     border-top: 0px;
     height:20%;
 }
@@ -30,7 +28,7 @@ cellint{
 
 .cellule_left{
     height: 100%;
-    background-image:linear-gradient(to right, #fafaff 0%, #ffffff 30%, #3eff3e 70%);
+    background-image:linear-gradient(to right, rgba(255,255,255,0) 0%, #ffffff 30%, #3eff3e 70%);
     background-size: 400% auto;
     background-position: 0 0;
     transition : background-position 1.5s;
