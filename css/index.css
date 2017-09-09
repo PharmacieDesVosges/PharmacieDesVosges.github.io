@@ -3,8 +3,9 @@ html, body {
     margin: 0;
     padding: 0;
     font-size:18px;
-        background: linear-gradient(to bottom right, white 50%, #ccccff);
+    background: linear-gradient(to bottom right, white 50%, #ccccff);
 }
+
 body{
     display: table;
     width:100%;
@@ -39,6 +40,8 @@ footer{
     display: table-row;
     height: 30px;
     text-align: center;
+    font-size: 12px;
+    font-style: italic;
 }
 
 .row{
@@ -46,4 +49,8 @@ footer{
     margin: 0px;
     padding-left: 0px;
     padding-right: 0px;
+}
+
+h1{
+    color:#09286f;
 }

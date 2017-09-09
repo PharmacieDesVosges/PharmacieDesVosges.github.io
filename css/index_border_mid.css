@@ -15,7 +15,7 @@ border_mid{
 
 .cellule_mid{
     height: 100%;
-    background-image:linear-gradient(to bottom, rgba(255,255,255,0) 0%, #ffffff 35%, #3eff3e 70%);
+    background-image:linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 35%, #3eff3e 70%);
     background-size: auto 400%;
     background-position: 0 0;
     transition : background-position 1.5s;

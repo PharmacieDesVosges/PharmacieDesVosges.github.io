@@ -25,9 +25,6 @@ view_pro.config(['$routeProvider',
             .when('/Accueil', {
                 templateUrl: 'template/accueil.html'
             })
-            .when('/SamediOuvert',{
-                templateUrl: 'template/calendrier.html'
-            })
             .when('/MaterielMedical',{
                 templateUrl: 'template/materielmedical.html'
             })        
@@ -39,15 +36,15 @@ view_pro.config(['$routeProvider',
 var sliderMP = angular.module('sliderMP',['ngAnimate']);
 
 sliderMP.controller('SliderControllerMP', function($scope) {
-    $scope.images=[{src:'ext01.jpg',
+    $scope.images=[{src:'ext01.JPG',
                     title:'Pic 1'},
-                   {src:'ext02.jpg',
+                   {src:'ext02.JPG',
                     title:'Pic 2'},
-                   {src:'ext03.jpg',
+                   {src:'ext03.JPG',
                     title:'Pic 3'},
-                   {src:'int01.jpg',
+                   {src:'int01.JPG',
                     title:'Pic 4'},
-                   {src:'int02.jpg',
+                   {src:'int02.JPG',
                     title:'Pic 5'}]; 
 });
  
