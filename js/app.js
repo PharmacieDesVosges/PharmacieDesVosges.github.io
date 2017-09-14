@@ -231,7 +231,7 @@ dtApp.controller('dateController', function ($scope, $filter) {
         else{
             var date_samedi = "aujourd'hui"
         }
-        if (nb_week % 2 == 0){
+        if (nb_week % 2 == 1){
             $scope.result = "Ouverte";
         }
         else{
