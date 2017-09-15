@@ -1,7 +1,10 @@
 #txt{
     padding-top: 10%;
+    padding-bottom: 3%;
+    text-align: justify;
 }
 
 #liste{
     padding-left: 5%;
+    padding-top: 10%;
 }
