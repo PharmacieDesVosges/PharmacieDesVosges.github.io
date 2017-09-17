@@ -10,4 +10,6 @@ logoPU{
 #site_off{
     text-align: center;
     margin-top: 5px;
+    font-style: italic;
+    font-size: 15px;
 }
